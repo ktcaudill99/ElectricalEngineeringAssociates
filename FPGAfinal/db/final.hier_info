@@ -1,0 +1,73 @@
+|final
+a <= 7447:inst14.OA
+pin_name => slowclockled:inst6.clk
+b <= 7447:inst14.OB
+c <= 7447:inst14.OC
+d <= 7447:inst14.OD
+e <= 7447:inst14.OE
+f <= 7447:inst14.OF
+g <= 7447:inst14.OG
+
+
+|final|7447:inst14
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|final|slowclockled:inst6
+clk => counter[32].CLK
+clk => counter[31].CLK
+clk => counter[30].CLK
+clk => counter[29].CLK
+clk => counter[28].CLK
+clk => counter[27].CLK
+clk => counter[26].CLK
+clk => counter[25].CLK
+clk => counter[24].CLK
+clk => counter[23].CLK
+clk => counter[22].CLK
+clk => counter[21].CLK
+clk => counter[20].CLK
+clk => counter[19].CLK
+clk => counter[18].CLK
+clk => counter[17].CLK
+clk => counter[16].CLK
+clk => counter[15].CLK
+clk => counter[14].CLK
+clk => counter[13].CLK
+clk => counter[12].CLK
+clk => counter[11].CLK
+clk => counter[10].CLK
+clk => counter[9].CLK
+clk => counter[8].CLK
+clk => counter[7].CLK
+clk => counter[6].CLK
+clk => counter[5].CLK
+clk => counter[4].CLK
+clk => counter[3].CLK
+clk => counter[2].CLK
+clk => counter[1].CLK
+clk => counter[0].CLK
+clk => state.CLK
+slowclock <= state.DB_MAX_OUTPUT_PORT_TYPE
+LEDG0 <= <VCC>
+LEDG1 <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
